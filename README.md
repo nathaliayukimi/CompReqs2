@@ -34,7 +34,7 @@ Na tela de carregamento do site, há um grafo geral com todas as disciplinas. Ce
 ## Dependências
 É importante que você esteja no diretório contendo o index.html, style.css, base.css, reset.css, DFS.js, logo.png e Disciplinas.json. Disto, é necessário rodar um servidor local. Você tem 2 opções:
     - Usar o comando no terminal (você precisa ter python3 instalado):
-      ```bash
+      ```
       python -m http.server 8000
       ```
       E acessar http://0.0.0.0:8000/
