@@ -1,0 +1,14 @@
+:root {
+    --fonte-texto: "Lato Light";
+    --size-texto: 1.5em;
+    --cor-texto: #21a3a3;
+    --cor-destaque: #7375a5;
+    --cor-botao: #2b364a;
+
+
+    --purpura: "#7375a5";
+    --verde-turquesa: "#21a3a3";
+    --verde-agua: "##13c8b5";
+    --azul-claro: "#6cf3d5";
+    --roxo: "#2b364a";
+}

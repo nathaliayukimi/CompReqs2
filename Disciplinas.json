@@ -1,0 +1,802 @@
+[
+	{ "disciplina" : "Integração na Universidade e na Profissão",
+	 "codigo" : "MAC0101",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Fundamentos de Matemática para a Computação",
+	 "codigo" : "MAC0105",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Introdução à Computação",
+	 "codigo" : "MAC0110",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Álgebra Booleana e Aplicações no Projeto de Arquitetura de Computadores",
+	 "codigo" : "MAC0329",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Vetores e Geometria",
+	 "codigo" : "MAT0112",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Cálculo Diferencial e Integral I",
+	 "codigo" : "MAT2453",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Algoritmos e Estruturas de Dados I",
+	 "codigo" : "MAC0121",
+	 "prerequisitos" : ["MAC0110"]
+	},
+	{ "disciplina" : "Técnicas de Programação I",
+	 "codigo" : "MAC0216",
+	 "prerequisitos" : ["MAC0110"]
+	},
+	{ "disciplina" : "Introdução à Lógica e Verificação de Programas",
+	 "codigo" : "MAC0239",
+	 "prerequisitos" : ["MAC0110"]
+	},
+	{ "disciplina" : "Introdução à Probabilidade e à Estatística",
+	 "codigo" : "MAE0119",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Álgebra Linear I",
+	 "codigo" : "MAT0122",
+	 "prerequisitos" : ["MAT0112"]
+	},
+	{ "disciplina" : "Cálculo Diferencial e Integral II",
+	 "codigo" : "MAT2454",
+	 "prerequisitos" : ["MAT2453"]
+	},
+	{ "disciplina" : "Caminhos no Bacharelado em Ciência da Computação",
+	 "codigo" : "MAC0102",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Modelagem e Simulação",
+	 "codigo" : "MAC0209",
+	 "prerequisitos" : ["MAC0110"]
+	},
+	{ "disciplina" : "Laboratório de Métodos Numéricos",
+	 "codigo" : "MAC0210",
+	 "prerequisitos" : ["MAT0122", "MAC0110"]
+	},
+	{ "disciplina" : "Algoritmos e Estruturas de Dados II",
+	 "codigo" : "MAC0323",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Funções Diferenciáveis e Séries",
+	 "codigo" : "MAT0236",
+	 "prerequisitos" : ["MAT2454"]
+	},
+	{ "disciplina" : "Conceitos Fundamentais de Linguagens de Programação",
+	 "codigo" : "MAC0316",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Análise de Algoritmos",
+	 "codigo" : "MAC0338",
+	 "prerequisitos" : ["MAC0323"]
+	},
+	{ "disciplina" : "Introdução ao Desenvolvimento de Sistemas de Software",
+	 "codigo" : "MAC0350",
+	 "prerequisitos" : ["MAC0316"]
+	},
+	{ "disciplina" : "Sistemas Operacionais",
+	 "codigo" : "MAC0422",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Língua Portuguesa",
+	 "codigo" : "FLC0474",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Introdução às Ciências Atmosféricas",
+	 "codigo" : "ACA0115",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Leitura Dramática",
+	 "codigo" : "MAC0335",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Climatologia I",
+	 "codigo" : "ACA0223",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Fundamentos de Astronomia",
+	 "codigo" : "AGA0215",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Meteorologia Sinótica I",
+	 "codigo" : "ACA0522",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Astronomia de Posição",
+	 "codigo" : "AGA0106",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Astrofísica de Altas Energias",
+	 "codigo" : "AGA0315",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Elementos de Geofísica",
+	 "codigo" : "AGG0110",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Meteorologia Dinâmica I",
+	 "codigo" : "ACA0537",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Física do Interior da Terra",
+	 "codigo" : "AGG0222",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Processamento de Sinais Digitais",
+	 "codigo" : "AGG0330",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Meteorologia Física I",
+	 "codigo" : "ACA0324",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Mecânica Celeste",
+	 "codigo" : "AGA0309",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Biometeorologia",
+	 "codigo" : "ACA0245",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Ética na Era da Informação",
+	 "codigo" : "MAC0488",
+	 "prerequisitos" : ["MAC0422"]
+	},
+	{ "disciplina" : "Elementos de Mineralogia e Petrologia",
+	 "codigo" : "GMG0630",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Algoritmos e Estruturas de Dados I",
+	 "codigo" : "ACH2023",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Matrizes, Vetores e Geometria Analítica",
+	 "codigo" : "ACH2033",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Atividade Curricular em Comunidade",
+	 "codigo" : "MAC0213",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Atividade Curricular em Cultura e Extensão",
+	 "codigo" : "MAC0214",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Atividade Curricular em Pesquisa",
+	 "codigo" : "MAC0215",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Design de Interação para Editoração",
+	 "codigo" : "CJE0642",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Modelagem Numérica em Oceanografia",
+	 "codigo" : "IOF0115",
+	 "prerequisitos" : ["MAC0110"]
+	},
+	{ "disciplina" : "Desafios de Programação",
+	 "codigo" : "MAC0327",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Computação Musical",
+	 "codigo" : "MAC0337",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Estatística Descritiva",
+	 "codigo" : "MAE0217",
+	 "prerequisitos" : ["MAE0119"]
+	},
+	{ "disciplina" : "Noções de Probabilidade e Processos Estocásticos",
+	 "codigo" : "MAE0228",
+	 "prerequisitos" : ["MAE0119"]
+	},
+	{ "disciplina" : "Análise de Dados e Simulação",
+	 "codigo" : "MAE0399",
+	 "prerequisitos" : ["MAE0119"]
+	},
+	{ "disciplina" : "Matemática, Arquitetura e Design",
+	 "codigo" : "MAP2001",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Análise Real",
+	 "codigo" : "MAT0206",
+	 "prerequisitos" : ["MAT2454"]
+	},
+	{ "disciplina" : "Álgebra Linear II",
+	 "codigo" : "MAT0222",
+	 "prerequisitos" : ["MAT0122"]
+	},
+	{ "disciplina" : "Introdução a Teoria dos Números",
+	 "codigo" : "MAT0223",
+	 "prerequisitos" : ["MAC0105"]
+	},
+	{ "disciplina" : "Anéis e Corpos",
+	 "codigo" : "MAT0264",
+	 "prerequisitos" : ["MAC0105"]
+	},
+	{ "disciplina" : "Introdução à Engenharia Elétrica",
+	 "codigo" : "0323100",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Geologia Geral",
+	 "codigo" : "0440620",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Física II",
+	 "codigo" : "4302112",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Mecânica Estatística",
+	 "codigo" : "4302401",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Técnicas de Programação II",
+	 "codigo" : "MAC0218",
+	 "prerequisitos" : ["MAC0216"]
+	},
+	{ "disciplina" : "Programação Concorrente e Paralela",
+	 "codigo" : "MAC0219",
+	 "prerequisitos" : ["MAC0121", "MAC0216"]
+	},
+	{ "disciplina" : "Métodos Numéricos da Álgebra Linear",
+	 "codigo" : "MAC0300",
+	 "prerequisitos" : ["MAT0122"]
+	},
+	{ "disciplina" : "Teste de Software Baseado em Modelo",
+	 "codigo" : "MAC0474",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Probabilidade I",
+	 "codigo" : "MAE0221",
+	 "prerequisitos" : ["MAE0119", "MAT2454"]
+	},
+	{ "disciplina" : "Probabilidade II",
+	 "codigo" : "MAE0224",
+	 "prerequisitos" : ["MAT0236"]
+	},
+	{ "disciplina" : "Introdução à Teoria dos Jogos",
+	 "codigo" : "MAE0515",
+	 "prerequisitos" : ["MAE0119", "MAT2453"]
+	},
+	{ "disciplina" : "Grupos",
+	 "codigo" : "MAT0265",
+	 "prerequisitos" : ["MAC0105"]
+	},
+	{ "disciplina" : "Cálculo Diferencial e Integral V",
+	 "codigo" : "MAT0311",
+	 "prerequisitos" : ["MAT0122", "MAT0206"]
+	},
+	{ "disciplina" : "Design e Programação de Games",
+	 "codigo" : "PCS3549",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Bioquímica: Estrutura de Biomoléculas e Metabolismo",
+	 "codigo" : "QBQ0230",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Bioquímica: Estrutura de Biomoléculas e Metabolismo",
+	 "codigo" : "QBQ0250",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Bioquímica Metabólica",
+	 "codigo" : "QBQ1252",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Tecnologia do Dna Recombinante",
+	 "codigo" : "QBQ2457",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Expressão Gênica",
+	 "codigo" : "QBQ2503",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Biologia Molecular Computacional",
+	 "codigo" : "QBQ2507",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Transporte e Sinalização Celular",
+	 "codigo" : "QBQ2508",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Bioquímica Redox",
+	 "codigo" : "QBQ2509",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Aspectos Conceituais e Estéticos do Design de Interface",
+	 "codigo" : "AUH2803",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Teoria do Design",
+	 "codigo" : "AUP2409",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Oceanografia Por Satélites",
+	 "codigo" : "IOF0255",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Técnicas de Visualização e Distribuição de Dados Oceanográficos",
+	 "codigo" : "IOF0265",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Otimização Linear",
+	 "codigo" : "MAC0315",
+	 "prerequisitos" : ["MAT0122"]
+	},
+	{ "disciplina" : "Introdução à Teoria dos Grafos",
+	 "codigo" : "MAC0320",
+	 "prerequisitos" : ["MAC0121", "MAC0121"]
+	},
+	{ "disciplina" : "Algoritmos em Grafos",
+	 "codigo" : "MAC0328",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Desafios de Programação Avançados",
+	 "codigo" : "MAC0345",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Programação para Jogos Digitais",
+	 "codigo" : "MAC0346",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Redes de Computadores e Sistemas Distribuídos",
+	 "codigo" : "MAC0352",
+	 "prerequisitos" : ["MAC0323"]
+	},
+	{ "disciplina" : "Estruturas de Dados Avançadas",
+	 "codigo" : "MAC0385",
+	 "prerequisitos" : ["MAC0323"]
+	},
+	{ "disciplina" : "Sistemas Baseados em Conhecimento",
+	 "codigo" : "MAC0444",
+	 "prerequisitos" : ["MAC0239", "MAC0323"]
+	},
+	{ "disciplina" : "Introdução ao aprendizado de máquina",
+	 "codigo" : "MAC0460",
+	 "prerequisitos" : ["MAE0119", "MAT0122", "MAT2454"]
+	},
+	{ "disciplina" : "Inferência Estatística",
+	 "codigo" : "MAE0311",
+	 "prerequisitos" : ["MAE0119", "MAE0221"]
+	},
+	{ "disciplina" : "Introdução aos Processos Estocásticos",
+	 "codigo" : "MAE0312",
+	 "prerequisitos" : ["MAE0221"]
+	},
+	{ "disciplina" : "Controle Estatístico de Qualidade",
+	 "codigo" : "MAE0532",
+	 "prerequisitos" : ["MAE0119"]
+	},
+	{ "disciplina" : "Aplicações de Álgebra Linear",
+	 "codigo" : "MAP2210",
+	 "prerequisitos" : ["MAT0112", "MAT0122"]
+	},
+	{ "disciplina" : "Funções Analíticas",
+	 "codigo" : "MAT0225",
+	 "prerequisitos" : ["MAT0236", "MAT0236", "MAT0206"]
+	},
+	{ "disciplina" : "Teoria de Galois",
+	 "codigo" : "MAT0364",
+	 "prerequisitos" : ["MAT0264", "MAT0265"]
+	},
+	{ "disciplina" : "Laboratório Digital I",
+	 "codigo" : "PCS2305",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Bioquímica e Biologia Molecular",
+	 "codigo" : "QBQ0102",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Bioquímica e Biologia Molecular",
+	 "codigo" : "QBQ0104",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Bioquímica",
+	 "codigo" : "QBQ0106",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Bioquímica: Estrutura de Biomoléculas e Metabolismo",
+	 "codigo" : "QBQ0116",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Bioquímica: Estrutura de Biomoléculas e Metabolismo",
+	 "codigo" : "QBQ0204",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Biologia Molecular",
+	 "codigo" : "QBQ0317",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Biologia Molecular",
+	 "codigo" : "QBQ1354",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Enzimologia",
+	 "codigo" : "QBQ2502",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Biologia Estrutural",
+	 "codigo" : "QBQ2505",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Laboratório de Sistemas Operacionais",
+	 "codigo" : "ACH2096",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Projeto Integrado de Sistemas de Informação",
+	 "codigo" : "ACH2106",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Introdução ao Processamento de Sinais Digitais",
+	 "codigo" : "MAC0317",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Introdução à Programação de Robôs Móveis",
+	 "codigo" : "MAC0318",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Otimização Combinatória",
+	 "codigo" : "MAC0325",
+	 "prerequisitos" : ["MAC0121", "MAC0315"]
+	},
+	{ "disciplina" : "Geometria Computacional",
+	 "codigo" : "MAC0331",
+	 "prerequisitos" : ["MAC0323"]
+	},
+	{ "disciplina" : "Engenharia de Software",
+	 "codigo" : "MAC0332",
+	 "prerequisitos" : ["MAC0350"]
+	},
+	{ "disciplina" : "Laboratório de Engenharia de Software",
+	 "codigo" : "MAC0340",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Otimização Semidefinida e Aplicações",
+	 "codigo" : "MAC0343",
+	 "prerequisitos" : ["MAC0315"]
+	},
+	{ "disciplina" : "Arquitetura de Computadores",
+	 "codigo" : "MAC0344",
+	 "prerequisitos" : ["MAC0121", "MAC0329"]
+	},
+	{ "disciplina" : "Biologia de Sistemas",
+	 "codigo" : "MAC0375",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Autômatos, Computabilidade e Complexidade",
+	 "codigo" : "MAC0414",
+	 "prerequisitos" : ["MAC0323"]
+	},
+	{ "disciplina" : "Visão e Processamento de Imagens",
+	 "codigo" : "MAC0417",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Introdução a Computação Gráfica",
+	 "codigo" : "MAC0420",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Inteligência Artificial",
+	 "codigo" : "MAC0425",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Sistemas de Bancos de Dados",
+	 "codigo" : "MAC0426",
+	 "prerequisitos" : ["MAC0350"]
+	},
+	{ "disciplina" : "Algoritmos de Aproximação",
+	 "codigo" : "MAC0450",
+	 "prerequisitos" : ["MAC0315"]
+	},
+	{ "disciplina" : "Ciência e Engenharia de Dados",
+	 "codigo" : "MAC0459",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Desenvolvimento de Software Livre",
+	 "codigo" : "MAC0470",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Desenvolvimento para Web",
+	 "codigo" : "MAC0471",
+	 "prerequisitos" : ["MAC0350"]
+	},
+	{ "disciplina" : "Otimização Inteira",
+	 "codigo" : "MAC0473",
+	 "prerequisitos" : ["MAC0315"]
+	},
+	{ "disciplina" : "Laboratório de Sistemas Computacionais Complexos",
+	 "codigo" : "MAC0475",
+	 "prerequisitos" : ["MAC0350"]
+	},
+	{ "disciplina" : "Combinatória I",
+	 "codigo" : "MAC0694",
+	 "prerequisitos" : ["MAE0119", "MAC0105", "MAT0122", "MAC0338"]
+	},
+	{ "disciplina" : "Séries Temporais",
+	 "codigo" : "MAE0325",
+	 "prerequisitos" : ["MAE0221", "MAE0311"]
+	},
+	{ "disciplina" : "Análise de Regressão",
+	 "codigo" : "MAE0328",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Cálculo de Diferenças Finitas",
+	 "codigo" : "MAP0313",
+	 "prerequisitos" : ["MAT0236", "MAP2210"]
+	},
+	{ "disciplina" : "Fundamentos de Análise Numérica",
+	 "codigo" : "MAP2220",
+	 "prerequisitos" : ["MAT2454", "MAP2210"]
+	},
+	{ "disciplina" : "Medida e Integração",
+	 "codigo" : "MAT0234",
+	 "prerequisitos" : ["MAT0236", "MAT0206"]
+	},
+	{ "disciplina" : "Introdução aos Fundamentos de Matemática",
+	 "codigo" : "MAT0350",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Laboratório Digital B",
+	 "codigo" : "PCS3345",
+	 "prerequisitos" : ["PCS2305"]
+	},
+	{ "disciplina" : "Gerência e Qualidade de Software",
+	 "codigo" : "PCS3863",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Engenharia de Sistemas de Informação II",
+	 "codigo" : "ACH2007",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Tópicos Especiais em Bancos de Dados",
+	 "codigo" : "ACH2066",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Gestão de Processos de Negócio",
+	 "codigo" : "ACH2067",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Segurança da Informação",
+	 "codigo" : "ACH2076",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Soluções Web Baseadas em Software Livre",
+	 "codigo" : "ACH2077",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Construção de Compiladores",
+	 "codigo" : "ACH2087",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Desafios de Programação I",
+	 "codigo" : "ACH2107",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Computação Gráfica",
+	 "codigo" : "ACH2117",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Governança de Tecnologia da Informação",
+	 "codigo" : "ACH2127",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Tópicos em Planejamento em Inteligência Artificial",
+	 "codigo" : "ACH2137",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Recuperação de Informação",
+	 "codigo" : "MAC0333",
+	 "prerequisitos" : ["MAC0110"]
+	},
+	{ "disciplina" : "Criptografia para Segurança de Dados",
+	 "codigo" : "MAC0336",
+	 "prerequisitos" : ["MAC0105"]
+	},
+	{ "disciplina" : "Tópicos Avançados de Programação Orientada a Objetos",
+	 "codigo" : "MAC0413",
+	 "prerequisitos" : ["MAC0316", "MAC0218"]
+	},
+	{ "disciplina" : "Otimização Não Linear",
+	 "codigo" : "MAC0427",
+	 "prerequisitos" : ["MAT0122"]
+	},
+	{ "disciplina" : "Algoritmos e Complexidade de Computação",
+	 "codigo" : "MAC0430",
+	 "prerequisitos" : ["MAC0338"]
+	},
+	{ "disciplina" : "Tópicos de Matemática Discreta I",
+	 "codigo" : "MAC0436",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Laboratório de Bancos de Dados",
+	 "codigo" : "MAC0439",
+	 "prerequisitos" : ["MAC0350"]
+	},
+	{ "disciplina" : "Princípios de Interação Humano-computador",
+	 "codigo" : "MAC0446",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Tópicos de Otimização Combinatória I",
+	 "codigo" : "MAC0452",
+	 "prerequisitos" : ["MAC0325"]
+	},
+	{ "disciplina" : "Tópicos Especiais em Engenharia de Software",
+	 "codigo" : "MAC0456",
+	 "prerequisitos" : ["MAC0332"]
+	},
+	{ "disciplina" : "Teoria dos Jogos Algorítmica",
+	 "codigo" : "MAC0466",
+	 "prerequisitos" : ["MAC0323"]
+	},
+	{ "disciplina" : "Empreendedorismo Digital",
+	 "codigo" : "MAC0467",
+	 "prerequisitos" : ["MAC0323"]
+	},
+	{ "disciplina" : "Tópicos em Computação Gráfica",
+	 "codigo" : "MAC0468",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Laboratório de Métodos Ágeis",
+	 "codigo" : "MAC0472",
+	 "prerequisitos" : ["MAC0218"]
+	},
+	{ "disciplina" : "Laboratório Avançado de Ciência de Dados",
+	 "codigo" : "MAC0476",
+	 "prerequisitos" : ["MAC0459", "MAC0460"]
+	},
+	{ "disciplina" : "Trabalho de Formatura Supervisionado",
+	 "codigo" : "MAC0499",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Trabalho de Formatura Supervisionado Voltado à Extensão",
+	 "codigo" : "MAC0500",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Fundamentos da Internet das Coisas",
+	 "codigo" : "MAC0546",
+	 "prerequisitos" : ["MAC0216"]
+	},
+	{ "disciplina" : "Tópicos na Teoria Algébrica dos Grafos",
+	 "codigo" : "MAC0691",
+	 "prerequisitos" : ["MAT0122"]
+	},
+	{ "disciplina" : "Tópicos Matemáticos para Computação Contemporânea",
+	 "codigo" : "MAC0693",
+	 "prerequisitos" : ["MAE0119", "MAT0236", "MAC0105", "MAT0122", "MAC0338"]
+	},
+	{ "disciplina" : "Combinatória II",
+	 "codigo" : "MAC0695",
+	 "prerequisitos" : ["MAC0694"]
+	},
+	{ "disciplina" : "Análise Estatística",
+	 "codigo" : "MAE0314",
+	 "prerequisitos" : ["MAT0122", "MAE0311"]
+	},
+	{ "disciplina" : "Tecnologia da Amostragem",
+	 "codigo" : "MAE0315",
+	 "prerequisitos" : ["MAE0119"]
+	},
+	{ "disciplina" : "Aplicações de Processos Estocásticos",
+	 "codigo" : "MAE0326",
+	 "prerequisitos" : ["MAE0228"]
+	},
+	{ "disciplina" : "Métodos Numéricos em Equações Diferenciais I",
+	 "codigo" : "MAP2310",
+	 "prerequisitos" : ["MAT0236", "MAP2220", "MAT0236", "MAC0210"]
+	},
+	{ "disciplina" : "Teoria dos Conjuntos",
+	 "codigo" : "MAT0330",
+	 "prerequisitos" : ["MAT0236", "MAC0105"]
+	},
+	{ "disciplina" : "Lógica",
+	 "codigo" : "MAT0359",
+	 "prerequisitos" : ["MAT0264", "MAC0239"]
+	},
+	{ "disciplina" : "Criação e Administração de Empresas de Computação",
+	 "codigo" : "PCS3529",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Sistemas Embarcados",
+	 "codigo" : "PCS3848",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Qualidade de Software",
+	 "codigo" : "ACH2028",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Métodos Quantitativos Aplicados à Sistemas de Informação",
+	 "codigo" : "ACH2037",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Laboratório de Redes de Computadores",
+	 "codigo" : "ACH2038",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Redes de Alto Desempenho",
+	 "codigo" : "ACH2048",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Avaliação de Desempenho de Sistemas Computacionais",
+	 "codigo" : "ACH2068",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Gestão Empresarial",
+	 "codigo" : "ACH2078",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Fundamentos de Sistemas Hipermídia e Web",
+	 "codigo" : "ACH2086",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Web Semântica",
+	 "codigo" : "ACH2098",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Desafios de Programação II",
+	 "codigo" : "ACH2108",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Introdução ao Processamento de Língua Natural",
+	 "codigo" : "ACH2118",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Computação, Cibernética e Sistemas Cognitivos.",
+	 "codigo" : "MAC0326",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Tópicos de Sistemas de Computação",
+	 "codigo" : "MAC0434",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Análise e Reconhecimento de Formas: Teoria e Prática",
+	 "codigo" : "MAC0447",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Direito e Software",
+	 "codigo" : "MAC0458",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Computação Móvel",
+	 "codigo" : "MAC0463",
+	 "prerequisitos" : ["MAC0323"]
+	},
+	{ "disciplina" : "Biologia Computacional",
+	 "codigo" : "MAC0465",
+	 "prerequisitos" : ["MAC0121"]
+	},
+	{ "disciplina" : "Implicações Sociais da Computação",
+	 "codigo" : "MAC0485",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Tópicos de Matemática Discreta II",
+	 "codigo" : "MAC0536",
+	 "prerequisitos" : ["MAC0436"]
+	},
+	{ "disciplina" : "Tópicos de Otimização Combinatória II",
+	 "codigo" : "MAC0552",
+	 "prerequisitos" : ["MAC0452"]
+	},
+	{ "disciplina" : "Análise Multivariada de Dados",
+	 "codigo" : "MAE0330",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Técnicas em Teoria de Controle",
+	 "codigo" : "MAP2321",
+	 "prerequisitos" : ["MAP2310", "MAT0122", "MAT0236", "MAT0122"]
+	},
+	{ "disciplina" : "Matemática Industrial I",
+	 "codigo" : "MAP2411",
+	 "prerequisitos" : ["MAT0236", "MAP2220", "MAP2310"]
+	},
+	{ "disciplina" : "Redes de Computadores",
+	 "codigo" : "PCS0210",
+	 "prerequisitos" : []
+	},
+	{ "disciplina" : "Laboratório de Sistemas Embarcados",
+	 "codigo" : "PCS3858",
+	 "prerequisitos" : []
+	}
+]

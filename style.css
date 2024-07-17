@@ -1,0 +1,114 @@
+@import url('base.css');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #ffeeff;
+}
+
+.container {
+    background-color: var(--cor-destaque);
+    padding-top: 5px;
+}
+
+.container img {
+    padding-left: 50px;
+}
+
+.content label {
+    /* Letra */
+    font-family: var(--fonte-texto);
+    font-size: var(--size-texto);
+    color: var(--cor-destaque);
+    font-weight: 700;
+
+    /* Posicional */
+    align-items: center;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.content input {
+    /* Letra */
+    font-family: var(--fonte-texto);
+    font-size: 1em;
+    color: #21a3a3;
+    font-weight: 700;
+
+    /* Posicional */
+    width: 500px;
+    align-items: center;
+    margin-top: 2em;
+    padding: 12px;
+
+    /* Borda */
+    border: 1px solid #21a3a3;
+    border-radius: 20px 0 0 20px;
+}
+
+.content #buscarButton {
+    /* Letra */
+    font-family: var(--fonte-texto);
+    color: #d9abff;
+    background-color: var(--cor-botao);
+    font-size: 1em;
+
+    /* Tamanho */
+    padding: 15px 20px;
+
+    /* Borda */
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+
+    /* Transição */
+    transition: 1s;
+}
+
+.content #buscarButton:hover {
+    background-color: #7375a5;
+    color: var(--cor-botao)
+}
+
+.found{
+    font-family: var(--fonte-texto);
+    font-size: 1.5em;
+    color: var(--cor-botao);
+    align-items: center;
+    margin-left: 50px;
+}
+
+#results {
+    list-style: none;
+    font-family: var(--fonte-texto);
+    font-size: 1em;
+    color: var(--cor-texto);
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+#results li b{
+    color: #7375a5;
+    font-weight: bold;
+}
+
+#chart-container {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    position: relative;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    margin: 50px; /* Ajusta a margem para evitar sobreposição */
+    box-sizing: border-box;
+}
+
+.labels {
+    font-family: var(--fonte-texto);
+}
