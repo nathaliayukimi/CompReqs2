@@ -229,6 +229,12 @@ find = (nomeDisc) => {
         }
     });
 
+    if(prereqList.length == 1){
+        const item = document.createElement('li');
+        item.innerHTML = 'Essa disciplina não possui pré-requisitos';
+        listaDisciplinas.appendChild(item); 
+    }
+
     redefine(nomeDisc);
     plot();
 }
