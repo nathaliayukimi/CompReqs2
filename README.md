@@ -8,7 +8,7 @@ Deixo os devidos créditos aos autores, do grupo de extensão do [USPCodeLab](ht
 
 ## Observações
 Essencialmente, tenho dado uma atenção, uma energia especial e maiores esforços ao grupo de extensão [MaratonUSP](https://www.ime.usp.br/~maratona/).  
-Entretnto, ainda eu seja motivada por uma curiosidade irracional de experimentar um pouquinho de cada grupo de extensão que o IME-USP oferece!
+Entretanto, ainda eu seja motivada por uma curiosidade irracional de experimentar um pouquinho de cada grupo de extensão que o IME-USP oferece!
 
 Veja que não faço parte do USPCodeLab, apesar de ter participado do curso de webDev em 2023. Mas, acho muito legal o desenvolvimento front-end.  
 Então, apesar de tudo, quero que entendam que esse projeto foi mais uma experiência pessoal de entender como integrar o html e o css com o javascript, além de mexer com um json via Node.js e o D3.js. Também adaptar algum algoritmo de grafos na prática.  
